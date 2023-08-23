@@ -6,7 +6,7 @@ const checkingForm = document.getElementById("checking-form"),
 const sendEmail = (e) => {
   e.preventDefault();
   //serviceID_templateID_#form_publickey
-  emailjs.sendForm('service_d0ksw7p', 'template_0jfq2uh', '#checking-form', '2wvaWHAG6JmHP6_-m')
+  emailjs.sendForm('service_x5uqzuj', 'template_zm65qsc', '#checking-form', 'YX3_dy6lgNrL-FdZU')
   .then(()=>{
       //show sent messenge
       formMessage.textContent = "les données ont été envoyé avec succès ✅"
